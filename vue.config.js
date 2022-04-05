@@ -1,6 +1,6 @@
 module.exports = {
+  publicPath: "/fivwebsite/",
   "transpileDependencies": [
     "vuetify"
   ]
-  publicPath: "/fivwebsite/"
 }
