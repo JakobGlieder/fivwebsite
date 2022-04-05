@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: "/fivwebsite/",
+  base: '/Users/jakobglieder/Downloads/VueCurrencyConverter-master 2/',
   "transpileDependencies": [
     "vuetify"
   ]
