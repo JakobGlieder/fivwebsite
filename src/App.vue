@@ -10,15 +10,13 @@
 
 <!-- the logic of this component: -->
 <script>
-import Navbar from './components/Navbar.vue'            /* import some other components */
 import Converter from './components/Converter.vue'
 
 export default {
   name: 'app',
 
   components: {  /* list all other components which we use inside this component */
-    Converter,
-    Navbar
+    Converter
   },
 
   data: function(){

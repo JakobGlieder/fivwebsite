@@ -45,7 +45,7 @@ export default {
 
       toMinutes: function(value,unit){   // converts a time value to its corresponding value in minutes
           switch(unit){
-            case("s"):
+            case("sss"):
                 return value/60;
             case("min"):
                 return value;
