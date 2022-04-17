@@ -3,7 +3,7 @@
   
   <img height="100" alt="Converter Logo" src="./assets/logo.png">
 
-  <div><input type="text" v-model="fromValue" placeholder="enter filament weight"> g</div>
+  <div><input id="fromField" type="text" v-model="fromValue" placeholder="enter filament weight"> g</div>
   <div><input type="text" v-model="fromUnit" placeholder="enter filament material"></div>
   <div>to</div>
   <div><input type="text" v-model="toUnit" placeholder="enter target material"></div>
@@ -113,7 +113,15 @@ export default {
     padding:5px;
     border: 1px solid rgb(0, 0, 0);
     border-radius:10px;
-    width:15vw;
+    width:180px;
+    font-size:1em;
+ }
+
+ #fromField{
+    padding:5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:10px;
+    width:166px;
     font-size:1em;
  }
 
